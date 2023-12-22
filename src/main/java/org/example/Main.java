@@ -131,7 +131,6 @@ class User {
     public void printInfo() {
         System.out.println("Ім'я: " + name);
         System.out.println("Адреса: " + address);
-        System.out.println("Кількість прочитаних книжок: " + listOfBooks.size());
         for (Book book : listOfBooks) {
             book.printInfo();
         }
